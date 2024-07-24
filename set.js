@@ -30,7 +30,7 @@ module.exports = { session: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2Y
     LINK : process.env.LINK || '',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
-        ? "postgresql://tkm:Aqi6tqwyv5IwDHncTtVi5XtMGZvfndDJ@dpg-cqahogtds78s739sl81g-a.oregon-postgres.render.com/takudzwa" : "postgresql://tkm:Aqi6tqwyv5IwDHncTtVi5XtMGZvfndDJ@dpg-cqahogtds78s739sl81g-a.oregon-postgres.render.com/takudzwa",
+        ? "postgresql://tkm:Aqi6tqwyv5IwDHncTtVi5XtMGZvfndDJ@dpg-cqahogtds78s739sl81g-a.oregon-postgres.render.com/takudzwa" : "postgresql://conex_user:mC1KYIsOzbT5r82KtLmMAJVRbBhrryzb@dpg-cqelgp9u0jms739etkpg-a.oregon-postgres.render.com/conex",
     /* new Sequelize({
      dialect: 'sqlite',
      storage: DATABASE_URL,
